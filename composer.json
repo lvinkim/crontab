@@ -1,0 +1,27 @@
+{
+  "name": "lvinkim/crontab",
+  "authors": [
+    {
+      "name": "Vinkim Lee",
+      "email": "lee.vinkim@yahoo.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1",
+    "ext-swoole": "^4.0",
+    "hellogerard/jobby": "^3.4"
+  },
+  "require-dev": {
+    "swoft/swoole-ide-helper": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Lvinkim\\Crontab\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Lvinkim\\Crontab\\Tests\\": "tests/"
+    }
+  }
+}
